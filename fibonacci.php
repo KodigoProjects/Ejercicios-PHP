@@ -9,7 +9,7 @@ function generarFibonacci($n) {
         // Cada nuevo término es la suma de los dos anteriores
         $fibonacci[] = $fibonacci[$i - 1] + $fibonacci[$i - 2];
     }
-    return array_slice($fibonacci, 0, $n); // Retornamos solo los primeros 'n'
+    return array_slice($fibonacci, 0, $n); // retorno solo los primeros 'n'
 }
 
 print_r(generarFibonacci(10)); // imprimo los primeros 10 terminos de la serie
